@@ -1,0 +1,36 @@
+Project outline
+
+
+Goal: 
+
+Find differences in how women and men are percived in music.
+    - in general
+    - does that vary over time?
+
+1a. Approach
+    I am analysing the top 100 Billboard songs from 1964-2015.
+
+    First, I will classify songs into female and male. To obtain a set of songs with
+    labels, I use LIWC dictionary to identify
+    songs where the other gender is not mentioned. I enriched the LIWC dictionary with
+    recent and slang words.  
+
+    1. Find 10 top words correlating with female/male, Plot them over time
+        - apply Liwc
+        - split data into male/female based on she/he
+        - train svm
+        - show how words behave over time
+    
+b. Investigate which emotions are associated to female/male lyrics
+    visualize it
+    - find emotions attached to female/male. whats the ratio
+
+2a. find most used gender words. plot how liwc cat behave over time
+    - find top 3 categories per gender, plot over time
+    - show top 10 all time words
+    
+b. LDA for female, male songs
+
+
+Improvement. Look for bigrams/trigrams
+
